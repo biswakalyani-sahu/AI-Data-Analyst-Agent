@@ -1,0 +1,43 @@
+Date,Product,Category,Quantity,Price,Revenue,Customer_ID
+2026-01-05,Wireless Mouse,Electronics,5,25.00,125.00,C101
+2026-01-06,Leather Notebook,Stationery,10,15.50,155.00,C102
+2026-01-07,Bluetooth Speaker,Electronics,3,45.00,135.00,C103
+2026-01-10,Ceramic Coffee Mug,Kitchenware,12,12.00,144.00,C104
+2026-01-12,Ergonomic Office Chair,Furniture,2,189.99,379.98,C105
+2026-01-15,Wireless Mouse,Electronics,8,25.00,200.00,C106
+2026-01-18,Leather Notebook,Stationery,5,15.50,77.50,C107
+2026-01-20,USB-C Hub,Electronics,7,35.00,245.00,C108
+2026-01-22,Ceramic Coffee Mug,Kitchenware,15,12.00,180.00,C109
+2026-01-25,Desk Organizer,Stationery,4,22.50,90.00,C110
+2026-02-02,Bluetooth Speaker,Electronics,5,45.00,225.00,C111
+2026-02-05,Leather Notebook,Stationery,12,15.50,186.00,C112
+2026-02-08,Wireless Mouse,Electronics,10,25.00,250.00,C113
+2026-02-12,Ceramic Coffee Mug,Kitchenware,8,12.00,96.00,C114
+2026-02-14,USB-C Hub,Electronics,4,35.00,140.00,C115
+2026-02-17,Ergonomic Office Chair,Furniture,1,189.99,189.99,C116
+2026-02-20,Desk Organizer,Stationery,6,22.50,135.00,C117
+2026-02-25,Bluetooth Speaker,Electronics,4,45.00,180.00,C118
+2026-03-01,Wireless Mouse,Electronics,6,25.00,150.00,C119
+2026-03-04,Leather Notebook,Stationery,8,15.50,124.00,C120
+2026-03-10,Ceramic Coffee Mug,Kitchenware,20,12.00,240.00,C121
+2026-03-15,USB-C Hub,Electronics,10,35.00,350.00,C122
+2026-03-18,Ergonomic Office Chair,Furniture,3,189.99,569.97,C123
+2026-03-22,Desk Organizer,Stationery,8,22.50,180.00,C124
+2026-03-28,Bluetooth Speaker,Electronics,6,45.00,270.00,C125
+2026-04-02,Wireless Mouse,Electronics,12,25.00,300.00,C126
+2026-04-05,Leather Notebook,Stationery,15,15.50,232.50,C127
+2026-04-10,Ceramic Coffee Mug,Kitchenware,10,12.00,120.00,C128
+2026-04-15,USB-C Hub,Electronics,5,35.00,175.00,C129
+2026-04-20,Ergonomic Office Chair,Furniture,2,189.99,379.98,C130
+2026-05-01,Wireless Mouse,Electronics,4,25.00,100.00,C131
+2026-05-05,Leather Notebook,Stationery,7,15.50,108.50,C132
+2026-05-12,Ceramic Coffee Mug,Kitchenware,18,12.00,216.00,C133
+2026-05-18,USB-C Hub,Electronics,9,35.00,315.00,C134
+2026-05-22,Desk Organizer,Stationery,5,22.50,112.50,C135
+2026-05-28,Bluetooth Speaker,Electronics,8,45.00,360.00,C136
+2026-06-02,Wireless Mouse,Electronics,15,25.00,375.00,C137
+2026-06-08,Leather Notebook,Stationery,9,15.50,139.50,C138
+2026-06-12,Ceramic Coffee Mug,Kitchenware,14,12.00,168.00,C139
+2026-06-15,USB-C Hub,Electronics,6,35.00,210.00,C140
+2026-06-20,Ergonomic Office Chair,Furniture,4,189.99,759.96,C141
+2026-06-23,Desk Organizer,Stationery,12,22.50,270.00,C142

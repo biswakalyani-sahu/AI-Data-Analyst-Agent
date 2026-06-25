@@ -1,0 +1,17 @@
+# Demo Video Script: AI Data Analyst Team 🎥
+
+**Project Title**: AI Data Analyst Team for Small Businesses
+**Video Duration**: ~5 Minutes
+**Target Audience**: Hackathon Judges, Business Owners, developers interested in Multi-Agent systems.
+
+---
+
+## 🧭 Video Breakdown & Timeline
+
+| Time | Section | Visual on Screen | Audio / Narration |
+| :--- | :--- | :--- | :--- |
+| **0:00 - 0:45** | **1. Introduction & Hook** | Slide showing project title, logo, and a mock dashboard interface. Camera of presenter. | "Hello everyone! As a small business owner, sales data is your goldmine—but raw CSV files are notoriously messy and difficult to parse. Today, I am excited to show you the **AI Data Analyst Team**, a complete, multi-agent AI system designed to turn messy sales data into professional business reports in seconds. Built on Google's new Agent Development Kit (ADK) and Model Context Protocol (MCP), this system runs a pipeline of four specialized agents to automate the work of a data science team." |
+| **0:45 - 1:30** | **2. Architecture Overview** | Architecture flow diagram (like the Mermaid flowchart in the README). | "Before we dive in, let's look under the hood. The system consists of four agents: the Coordinator, the Data Cleaner, the Insight Specialist, and the Executive Writer. To ensure strict data security and precision, the agents do not read the database directly. Instead, they interact with a local Model Context Protocol (MCP) server using FastMCP. The server exposes tools like `get_dataset_summary` and `get_sales_metrics` over a secure standard I/O connection." |
+| **1:30 - 3:00** | **3. Live UI Walkthrough** | Streamlit application running on `localhost`. Uploading `data/sample_sales.csv`. | "Let's see it in action! Here is our Streamlit frontend. First, we upload our sales CSV. We see a preview of our transactions. When I click 'Run Data Analyst Team', the Coordinator launches our ADK agents. \n\nIn the first tab, the Data Cleaning agent profiles the file and checks for duplicate records or missing values. In the second tab, the Insight agent plots a monthly revenue trend line chart and a top-performing products bar chart using Matplotlib and aggregates our metrics. \n\nFinally, the Report Agent compiles everything into a professional markdown executive report, which we can review and download with a single click." |
+| **3:00 - 4:15** | **4. Code Walkthrough** | VS Code window showing `mcp_server/server.py` and `agents/coordinator_agent.py`. | "The code is clean, modular, and beginner-friendly. Our MCP server uses the `FastMCP` decorator to register analysis tools. In the skills directory, we wrap these calls using an MCP Stdio client, which spins up the server as a safe subprocess. \n\nEach agent is defined in the agents directory using `google.adk.agents.Agent`. The Coordinator coordinates them sequentially using `google.adk.runners.Runner` and `InMemorySessionService`, feeding inputs from one stage directly into the next." |
+| **4:15 - 5:00** | **5. Key Takeaways & Outro** | Summary slide with project highlights (Beginner-friendly, Secure, Multi-Agent, Ready to deploy). Presenter on camera. | "To wrap up: this Capstone project demonstrates Multi-Agent orchestration, MCP server tool integration, secure file uploading, dynamic visualizations, and is 100% ready to deploy to Streamlit Community Cloud. Check out the source code in the GitHub link below, and start analyzing your business data today. Thank you!" |
