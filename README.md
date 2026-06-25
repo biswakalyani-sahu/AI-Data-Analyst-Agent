@@ -154,6 +154,8 @@ Streamlit will automatically set this secret as an environment variable in your 
 Streamlit will provision a container, run `pip install -r requirements.txt`, configure your secrets, and launch your live application.
 
 ---
+<img width="1917" height="917" alt="Image" src="https://github.com/user-attachments/assets/abfbffdb-00c9-4c12-b827-8f8e6731de06" />
+
 
 ## 🔒 Security Features Implemented
 
